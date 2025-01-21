@@ -1,6 +1,6 @@
 # TempoLog
 
-## abstract
+## Abstract
 
 The raw log messages are formatted to log templates and represent each template as a dense semantic vector. Then, we construct a multi-scale CTDG based on varying hops of template sequence. Subsequently, we design a semantic-aware TempoLog model to represent the template feature at certain timestamps. Finally, a link prediction model determines whether an edge exists between two nodes, enabling end-to-end training.
 
