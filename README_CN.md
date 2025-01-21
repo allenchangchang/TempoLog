@@ -6,10 +6,14 @@ The raw log messages are formatted to log templates and represent each template 
 
 By leveraging CTDGs, we eliminate the need for fixed-size windows, enabling the model to capture temporal and contextual dependencies between events dynamically. Additionally, the semantic-aware TempoLog model ensures event-level anomaly detection by learning patterns across varying hops of event interactions. This design directly addresses context bias and fuzzy localization, providing a more accurate, interpretable, and efficient solution for anomaly detection in discrete event sequences. 
 
+![alt text](overview.png)
+
 ## Demo
+
 本文件将以BGL数据集为例介绍如何运行整个项目。
 
 ### 1. LogParser
+
 首先下载原始数据集放置在 ```./data/BGL```目录下。
 然后在```./dataloader```目录下运行```parser.py```文件（注意修改对应的数据集），这会在数据集目录下生成一个```parser```目录，存放处理后的数据```./data/BGL/parser/BGL.log_structured.csv```和```./data/BGL/parser/BGL.log_templates.csv```。
 

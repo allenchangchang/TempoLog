@@ -6,6 +6,8 @@ The raw log messages are formatted to log templates and represent each template 
 
 By leveraging CTDGs, we eliminate the need for fixed-size windows, enabling the model to capture temporal and contextual dependencies between events dynamically. Additionally, the semantic-aware TempoLog model ensures event-level anomaly detection by learning patterns across varying hops of event interactions. This design directly addresses context bias and fuzzy localization, providing a more accurate, interpretable, and efficient solution for anomaly detection in discrete event sequences. 
 
+![alt text](overview.png)
+
 ## Demo
 
 This document will introduce how to run the entire project using the BGL dataset as an example.
